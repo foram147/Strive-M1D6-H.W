@@ -222,7 +222,20 @@ const movies = [
         "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
     },
   ]
-  
- delete movies.Year
+ delete movies.Title;
  console.log(movies)
-  
+ 
+ 
+ console.log("--------------------ex13---------------") 
+ const countLength= function(){
+ length=movies.length;
+ }
+ console.log(movies.length)
+ 
+console.log("--------------------------ex14-------------")
+
+ let data1 = movies.map(({Title}) => Title);
+
+ console.log(data1)
+
+console.log("--------------------ex15-------------")
